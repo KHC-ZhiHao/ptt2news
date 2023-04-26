@@ -1,0 +1,27 @@
+{
+  "name": "ptt2news",
+  "version": "1.0.0",
+  "description": "Convert PTT article to news style by ChatGPT.",
+  "main": "index.js",
+  "bin": {
+    "ptt2news": "cli.js"
+  },
+  "scripts": {
+    "action": "node ./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KHC-ZhiHao/ptt2news.git"
+  },
+  "author": "khczhihao",
+  "license": "ISC",
+  "homepage": "https://github.com/KHC-ZhiHao/ptt2news#readme",
+  "dependencies": {
+    "axios": "^1.3.6",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^10.0.1",
+    "ctod": "^0.0.6",
+    "inquirer": "8.2.4",
+    "power-helper": "^0.5.9"
+  }
+}
